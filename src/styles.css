@@ -1,0 +1,24 @@
+.post-img {
+  text-align: center;
+  padding: 20px 0;
+}
+.post-body {
+  padding: 20px 10px;
+}
+
+.noticia {
+  border-bottom: solid 1px #5e5959;
+}
+
+.noticia:last-child {
+  border-bottom: none;
+}
+
+.post-fecha {
+  font-size: 0.8em;
+  color: #5e5959;
+}
+.post-titulo {
+  font-size: 1.4em;
+  font-weight: bold;
+}
