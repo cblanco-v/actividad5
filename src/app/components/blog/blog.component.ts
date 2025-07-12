@@ -19,7 +19,8 @@ export class BlogComponent {
       date: '22/02/1993',
     },
     {
-      title: 'Un loro hackea el asistente virtual de su dueño y pide 100 piñas por Amazon',
+      title:
+        'Un loro hackea el asistente virtual de su dueño y pide 100 piñas por Amazon',
       img: 'https://picsum.photos/400/250?random=Math.floor(Math.random() * 1000)+1',
       body: 'Un loro amazónico llamado Rambo se ha convertido en sensación en redes sociales luego de que, aparentemente, lograra hackear el asistente virtual de su dueño y realizar un pedido masivo de frutas exóticas a través de Amazon. El dueño, Andrés Molina, descubrió la situación al recibir una notificación en su celular que confirmaba la compra de 100 piñas frescas con entrega urgente.',
       date: '26/12/2023',
@@ -31,9 +32,6 @@ export class BlogComponent {
     body: '',
     date: '',
   };
-
-  showSuccess = false;
-
   addPost() {
     if (
       !this.post.title ||
