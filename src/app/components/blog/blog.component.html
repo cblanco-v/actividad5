@@ -1,17 +1,18 @@
 <div class="blog">
   <div class="newPost">
-    <label>Título</label>
-    <input type="text" [(ngModel)]="post.title" />
-    <label>Imagen URL</label>
+    <label for="titulo">Título</label>
+    <input type="text" id="titulo" [(ngModel)]="post.title" />
+    <label for="imagen">Imagen URL</label>
     <input 
       type="text"
+      id="imagen"
       placeholder="https://picsum.photos/400/250"
       [(ngModel)]="post.img"
     />
-    <label>Cuerpo</label>
-    <textarea type="text" [(ngModel)]="post.body"></textarea>
-    <label>Fecha</label>
-    <input type="date" [(ngModel)]="post.date" />
+    <label for="cuerpo">Cuerpo</label>
+    <textarea type="text" id="cuerpo" [(ngModel)]="post.body"></textarea>
+    <label for="fecha">Fecha</label>
+    <input type="date" id="fecha" [(ngModel)]="post.date" />
     <button (click)="addPost()">Añadir noticia</button>
   </div>
   <div>
